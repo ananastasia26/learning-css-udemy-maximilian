@@ -60,21 +60,18 @@
 
   @media (min-width: 40rem) {
     .testimonial__info {
-      text-align: right;
-      padding: 0.9em;
-      display: inline-block;
-      vertical-align: middle;
       width: 30%;
     }
     .testimonial__image-container {
-      display: inline-block;
-      vertical-align: middle;
       width: 66%;
     }
 
     .testimonial {
       margin: 3rem auto;
       max-width: 1500px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
     }
 
     .testimonial__list {
