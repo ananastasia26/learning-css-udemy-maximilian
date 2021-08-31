@@ -1,5 +1,5 @@
 main{
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .background {
@@ -97,16 +97,23 @@ main{
 
 @media (min-width: 40rem) {
     main {
-        margin: 3rem auto;
-        max-width: 1500px;
+      max-width: 1500px;
+      margin-left: auto;
+      margin-right: auto;
     }
 }
 
 @media (min-width: 1500px) {
     .plan {
-        border-left: 4px solid #0e4f1f;
+      border-left: 4px solid #0e4f1f;
     }
+
     #free {
-        border-right: 4px solid #0e4f1f;
+      border-right: 4px solid #0e4f1f;
+    }
+
+    #free:hover,
+    #free:active {
+      border-right-color: #ff5454;
     }
 }
